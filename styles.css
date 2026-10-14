@@ -164,7 +164,7 @@ body.circuits-energized .circuit-glow{animation:page-circuit-sweep 2.8s ease-in-
 @media(prefers-reduced-motion:reduce){.hero-logo-button.is-energized .hero-letter-laser{animation-duration:.01ms}}
 
 
-.category-halo{position:absolute;right:-83.5px;bottom:-104.5px;width:250px;height:250px;z-index:0;pointer-events:none;opacity:0;background:conic-gradient(from 0deg,transparent 0 86%,#30bce9 91%,#effcff 93%,#54d7ff 95%,transparent 100%);-webkit-mask:radial-gradient(circle at center,transparent 0 85px,#000 86px 89px,transparent 90px 103px,#000 104px 107px,transparent 108px 122px,#000 123px 126px,transparent 127px);mask:radial-gradient(circle at center,transparent 0 85px,#000 86px 89px,transparent 90px 103px,#000 104px 107px,transparent 108px 122px,#000 123px 126px,transparent 127px);filter:drop-shadow(0 0 3px #43caff) drop-shadow(0 0 8px #168bc2)}
-.category-card.is-activating .category-halo{animation:category-halo-orbit .68s ease-out forwards}
-@keyframes category-halo-orbit{0%{opacity:0;transform:rotate(0)}12%{opacity:1}78%{opacity:.92}100%{opacity:0;transform:rotate(360deg)}}
+.category-halo{position:absolute;right:-83.5px;bottom:-104.5px;width:250px;height:250px;z-index:0;pointer-events:none;opacity:0;background:radial-gradient(circle at center,transparent 84px,#55d2ffb8 85px,#dff8ff 87px,#3dc4f58f 89px,transparent 90px 103px,#64c7ed70 104px,#b9e9f58c 106px,#56b9e355 108px,transparent 109px);filter:drop-shadow(0 0 2px #43caff)}
+.category-card.is-activating .category-halo{animation:category-halo-breathe 1.15s ease-out forwards}
+@keyframes category-halo-breathe{0%{opacity:0;filter:brightness(1) drop-shadow(0 0 1px #43caff)}20%{opacity:.72;filter:brightness(1.08) drop-shadow(0 0 4px #43caff)}45%{opacity:1;filter:brightness(1.18) drop-shadow(0 0 8px #38c7ff) drop-shadow(0 0 14px #168bc255)}75%{opacity:.88;filter:brightness(1.08) drop-shadow(0 0 6px #38c7ff)}100%{opacity:0;filter:brightness(1) drop-shadow(0 0 2px #43caff)}}
 @media(prefers-reduced-motion:reduce){.category-card.is-activating .category-halo{animation-duration:.01ms}}
