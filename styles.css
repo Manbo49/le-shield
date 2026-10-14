@@ -168,3 +168,10 @@ body.circuits-energized .circuit-glow{animation:page-circuit-sweep 2.8s ease-in-
 .category-card.is-activating .category-halo{animation:category-halo-breathe 1.15s ease-out forwards}
 @keyframes category-halo-breathe{0%{opacity:0;filter:brightness(1) drop-shadow(0 0 1px #43caff)}20%{opacity:.72;filter:brightness(1.08) drop-shadow(0 0 4px #43caff)}45%{opacity:1;filter:brightness(1.18) drop-shadow(0 0 8px #38c7ff) drop-shadow(0 0 14px #168bc255)}75%{opacity:.88;filter:brightness(1.08) drop-shadow(0 0 6px #38c7ff)}100%{opacity:0;filter:brightness(1) drop-shadow(0 0 2px #43caff)}}
 @media(prefers-reduced-motion:reduce){.category-card.is-activating .category-halo{animation-duration:.01ms}}
+
+
+.sub-card{position:relative;overflow:hidden;isolation:isolate}
+.sub-card>*{position:relative;z-index:1}
+.sub-card::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;opacity:0;background:linear-gradient(110deg,transparent 25%,#82eaff44 47%,#e1fbff9c 50%,#82eaff44 53%,transparent 75%);transform:translateX(-115%)}
+.sub-card.is-activating::after{animation:shield-logo-scan .95s ease-out forwards}
+@media(prefers-reduced-motion:reduce){.sub-card.is-activating::after{animation-duration:.01ms}}
