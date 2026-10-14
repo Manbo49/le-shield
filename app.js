@@ -37,4 +37,5 @@ fetch(appDataUrl).then(r=>{if(!r.ok)throw Error('Fichier de contenu introuvable'
 if('serviceWorker' in navigator&&location.protocol.startsWith('http'))window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js').catch(()=>{}));
 
 const heroLogoButton=document.querySelector('#hero-logo-button');let heroLogoTimer;
-heroLogoButton?.addEventListener('click',()=>{heroLogoButton.classList.remove('is-energized');void heroLogoButton.offsetWidth;heroLogoButton.classList.add('is-energized');clearTimeout(heroLogoTimer);heroLogoTimer=setTimeout(()=>heroLogoButton.classList.remove('is-energized'),1500)});
+let circuitTimer;
+heroLogoButton?.addEventListener('click',()=>{heroLogoButton.classList.remove('is-energized');document.body.classList.remove('circuits-energized');void heroLogoButton.offsetWidth;void document.body.offsetWidth;heroLogoButton.classList.add('is-energized');document.body.classList.add('circuits-energized');clearTimeout(heroLogoTimer);clearTimeout(circuitTimer);heroLogoTimer=setTimeout(()=>heroLogoButton.classList.remove('is-energized'),1500);circuitTimer=setTimeout(()=>document.body.classList.remove('circuits-energized'),2800)});
