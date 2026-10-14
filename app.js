@@ -38,7 +38,18 @@ search.addEventListener('input',()=>doSearch(search.value));search.addEventListe
 fetch(appDataUrl).then(r=>{if(!r.ok)throw Error('Fichier de contenu introuvable');return r.json()}).then(json=>{data=json;readRoute()}).catch(()=>{view.innerHTML='<div class="empty-state"><strong>Impossible de charger les contenus</strong>Vérifie que le fichier data/videos.json est présent et que le projet est servi depuis un hébergement web.</div>'});
 if('serviceWorker' in navigator&&location.protocol.startsWith('http'))window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js').catch(()=>{}));
 
-const heroLogoButton=document.querySelector('#hero-logo-button');let heroLogoTimer,starTrailTimer,starTrailEndTimer;
-let circuitTimer;
-heroLogoButton?.addEventListener('click',()=>{heroLogoButton.classList.remove('is-energized','is-star-sequence');document.body.classList.remove('circuits-energized');void heroLogoButton.offsetWidth;void document.body.offsetWidth;heroLogoButton.classList.add('is-energized');document.body.classList.add('circuits-energized');clearTimeout(heroLogoTimer);clearTimeout(circuitTimer);clearTimeout(starTrailTimer);clearTimeout(starTrailEndTimer);heroLogoTimer=setTimeout(()=>heroLogoButton.classList.remove('is-energized'),1500);circuitTimer=setTimeout(()=>document.body.classList.remove('circuits-energized'),2800);starTrailTimer=setTimeout(()=>heroLogoButton.classList.add('is-star-sequence'),1400);starTrailEndTimer=setTimeout(()=>heroLogoButton.classList.remove('is-star-sequence'),4650)});
+const heroLogoButton=document.querySelector('#hero-logo-button');
+let heroLogoTimer,circuitTimer;
+heroLogoButton?.addEventListener('click',()=>{
+  heroLogoButton.classList.remove('is-energized');
+  document.body.classList.remove('circuits-energized');
+  void heroLogoButton.offsetWidth;
+  void document.body.offsetWidth;
+  heroLogoButton.classList.add('is-energized');
+  document.body.classList.add('circuits-energized');
+  clearTimeout(heroLogoTimer);
+  clearTimeout(circuitTimer);
+  heroLogoTimer=setTimeout(()=>heroLogoButton.classList.remove('is-energized'),1500);
+  circuitTimer=setTimeout(()=>document.body.classList.remove('circuits-energized'),2800);
+});
 

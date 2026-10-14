@@ -1,4 +1,6 @@
-# LE SHIELD — V2
+# LE SHIELD — V1.2
+
+**Version validée : SHIELD V1.2.** L’animation des étoiles filantes a été retirée ; les effets lumineux du logo principal et des circuits sont conservés.
 
 **Savoir et Habileté Informatique en Libre Diffusion.** Cette web app responsive organise les vidéos YouTube dans une interface accessible sur iPhone, iPad, Android et navigateur. Elle ne demande pas de compte élève et ne nécessite pas d’abonnement à un service applicatif.
 
