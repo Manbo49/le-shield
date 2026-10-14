@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101c2c">
+  <meta name="description" content="LE SHIELD — Savoir et Habileté Informatique en Libre Diffusion. Des vidéos pour progresser en numérique.">
+  <meta property="og:title" content="LE SHIELD">
+  <meta property="og:description" content="Savoir et Habileté Informatique en Libre Diffusion.">
+  <meta property="og:image" content="assets/logo-shield-carre.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/logo-shield-carre.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
+  <link rel="stylesheet" href="styles.css?v=24">
+  <title>LE SHIELD — Vidéos numériques</title>
+</head>
+<body>
+  <div class="circuit-background" aria-hidden="true"></div>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#accueil" aria-label="Le Shield, accueil">
+        <img src="assets/logo-simple.png" alt="" width="42" height="42">
+        <span>LE <b>SHIELD</b></span>
+      </a>
+    </header>
+    <main id="app" tabindex="-1">
+      <section class="hero" id="accueil">
+        <img class="hero-banner" src="assets/bandeau-shield.png" alt="LE SHIELD — Savoir et Habileté Informatique en Libre Diffusion">
+        <div class="hero-copy">
+          <h1 class="sr-only">LE SHIELD</h1>
+          <p class="hero-subtitle">Tes vidéos pour progresser en numérique.</p>
+          <p class="hero-description">Des explications courtes, claires et pratiques pour apprendre à ton rythme.</p>
+        </div>
+      </section>
+
+      <section class="search-section" aria-label="Recherche">
+        <label class="search-box" for="search-input">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+          <input id="search-input" type="search" placeholder="Rechercher une vidéo, un logiciel…" autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+        <p class="search-hint">Recherche dans les catégories et les vidéos</p>
+      </section>
+
+      <nav class="breadcrumbs" id="breadcrumbs" aria-label="Fil d’Ariane"></nav>
+      <section id="view" aria-live="polite"></section>
+      <div id="search-results" hidden></div>
+    </main>
+    <dialog class="video-dialog" id="video-dialog" aria-labelledby="video-dialog-title">
+      <div class="video-dialog-panel">
+        <header class="video-dialog-header">
+          <div>
+            <p class="video-dialog-kicker">LECTURE VIDÉO</p>
+            <h2 id="video-dialog-title">Vidéo</h2>
+          </div>
+          <button class="video-dialog-close" id="video-dialog-close" type="button" aria-label="Fermer la vidéo">✕</button>
+        </header>
+        <div class="video-frame-wrap">
+          <iframe id="video-frame" title="Lecteur vidéo YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p class="video-dialog-note">La vidéo est lue directement dans Le Shield.</p>
+      </div>
+    </dialog>
+    <footer><span>LE SHIELD <i>•</i> SAVOIR ET HABILETÉ INFORMATIQUE EN LIBRE DIFFUSION</span><span class="footer-mark">🛡</span></footer>
+  </div>
+  <noscript>Cette application a besoin de JavaScript pour afficher les vidéos.</noscript>
+  <script src="app.js?v=24" defer></script>
+</body>
+</html>

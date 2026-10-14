@@ -81,18 +81,3 @@ Pour joindre un document à une vidéo, dépose le fichier dans le dossier [`dow
 ```
 
 Le bouton de téléchargement apparaît sur la fiche de la vidéo. Une fiche peut proposer plusieurs ressources ; le champ `label` donne le nom affiché aux élèves et `file` indique le chemin du fichier. Pense à publier les fichiers avec le site pour qu’ils soient accessibles aux élèves.
-
-## Fichiers d’exercice à télécharger
-
-Pour joindre un document à une vidéo, dépose le fichier dans le dossier [`downloads/`](downloads/) (tu peux créer des sous-dossiers), puis ajoute à cette fiche un champ `resources` dans `data/videos.json` :
-
-```json
-"resources": [
-  {
-    "label": "Fichier de départ Excel",
-    "file": "downloads/excel/fichier-de-depart.xlsx"
-  }
-]
-```
-
-Le bouton de téléchargement apparaît sur la fiche de la vidéo. Une fiche peut proposer plusieurs ressources ; le champ `label` donne le nom affiché aux élèves et `file` indique le chemin du fichier. Pense à publier les fichiers avec le site pour qu’ils soient accessibles aux élèves.

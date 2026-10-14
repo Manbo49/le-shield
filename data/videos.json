@@ -1,0 +1,571 @@
+{
+  "_instructions": "Catalogue et liens relevés dans la version publique de Glide. Modifie les titres, descriptions et URL YouTube dans ce fichier pour mettre à jour les vidéos. Un champ youtube vide signifie qu’aucun lien YouTube n’est disponible dans la fiche source. isNew=true affiche le badge Nouveau.",
+  "categories": [
+    {
+      "id": "office-365",
+      "title": "Office 365",
+      "icon": "▦",
+      "visual": "assets/logo-simple.png",
+      "subcategories": [
+        {
+          "id": "word",
+          "title": "Word",
+          "icon": "W"
+        },
+        {
+          "id": "excel",
+          "title": "Excel",
+          "icon": "X"
+        },
+        {
+          "id": "powerpoint",
+          "title": "PowerPoint",
+          "icon": "P"
+        }
+      ]
+    },
+    {
+      "id": "retouche-images",
+      "title": "Retouche d’images",
+      "icon": "◉",
+      "visual": "assets/logo-simple.png",
+      "subcategories": [
+        {
+          "id": "gimp",
+          "title": "GIMP",
+          "icon": "G"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "title": "Programmation Python",
+      "icon": "⌘",
+      "visual": "assets/logo-simple.png"
+    },
+    {
+      "id": "apple-ipad",
+      "title": "Apple iPad",
+      "icon": "▯",
+      "visual": "assets/logo-simple.png"
+    },
+    {
+      "id": "sig",
+      "title": "Systèmes d’information géographique",
+      "icon": "⌖",
+      "visual": "assets/logo-simple.png"
+    }
+  ],
+  "videos": [
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Présentation générale",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=dsZLA1b2KFk",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Options de police",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=sHwT1vvvogw",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Options de paragraphe",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=ZybEa515Pro",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Notes de bas de page",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=D6HtAmBDeYg",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Notes de fin",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=EzYhgrSVZ8c",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Puces et numérotation",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=vbbffjBSH3k",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Paramètres d’image",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=sUQ3pk6prGQ",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Les styles",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=iYZK99-A6II",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Les options de styles",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=p6v-NTc8zHk",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Style personnalisé",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=6LyBaPhieOw",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "La numérotation automatique",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=mfSvZtjoLqs",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Les tables des matières",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=QLZ9Gc4-fk8",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Légende des images",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=nuuyYHCt8MM",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Table des illustrations",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=y1zMKiilsIA",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Les colonnes",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=zeQkvzPpU7I",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Recherche et remplacement",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=UhcByJZVK8w",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Créer un graphique",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=08uU-_KnZyk",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Les options de graphique",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=YVIDSjtzDvI",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Saut de section page suivante 1",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=OigH-u2V91M",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "Saut de section page suivante 2",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=SiAzIgXcZqM",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "word",
+      "title": "En-tête et pied de page",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=4CJPgC3zNlY",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Présentation générale",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=F9kta3cWmkE",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Cellules et sélection",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=0t5WTFIj3Eo",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Recopie incrémentée",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=XX42TRY4wic",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Mise en forme rapide",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=RWcjVdgfwuE",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Mise en forme conditionnelle",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=2tLqAjKgz1s",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Calculs simples",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=MuOZn9WBTqI",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Fonctions simples",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=QAoTWaJCuxo",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Écrire une fonction",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=W7r8r0H920g",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Format de nombre",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=wNc0F9wURqU",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Graphiques simples",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=px-nY1NEZlA",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Référence relative",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=zLaD_a_Qu4k",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Référence absolue",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=glLp70KsKkk",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Référence mixte",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=c9rxLpBzcbg",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Fonction SI",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=OgxV5Acnw_A",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Fonctions SI imbriquées",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=8e1qDmKMmWk",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Fonction SOMME.SI",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=zXQ4Uo4qFhQ",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Fonctions de comptage",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=BKXYm6oWB60",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Fonction NB.SI",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=WH1VwEaBBo4",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "Fonction ET OU",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=cP2F2JlUmJE",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "TP DONNEES : TCD / GCD",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=7llEgMdDKoY",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "excel",
+      "title": "TP DONNEES : Filtrage",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=dXDn9QeN_IM",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "powerpoint",
+      "title": "Présentation générale",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=y_GzDuMpsos",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "powerpoint",
+      "title": "Les règles d’usage",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=n9k6fVUqZ0E",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "powerpoint",
+      "title": "Les animations",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=4NUzAr7qVog",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "powerpoint",
+      "title": "Les transitions",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=piLyXnpLl8k",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "powerpoint",
+      "title": "Les liens hypertextes",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=SFmWF6NPCGo",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "powerpoint",
+      "title": "Les masques de diapositives",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=PDMZkNzbACk",
+      "isNew": false
+    },
+    {
+      "categoryId": "office-365",
+      "subcategoryId": "powerpoint",
+      "title": "Le minutage",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=JIOX1P_G8Hw",
+      "isNew": false
+    },
+    {
+      "categoryId": "python",
+      "title": "Présentation générale",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=ETLLSv8Fb-s",
+      "isNew": false
+    },
+    {
+      "categoryId": "python",
+      "title": "Les variables",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=3O-sZ-Z33EY",
+      "isNew": false
+    },
+    {
+      "categoryId": "python",
+      "title": "Entrées et sorties",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=IMzNaSv-ENg",
+      "isNew": false
+    },
+    {
+      "categoryId": "python",
+      "title": "Conditions IF",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=74VKLpg4P_8",
+      "isNew": false
+    },
+    {
+      "categoryId": "python",
+      "title": "Conditions IF-ELSE",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=PA6m02PZ-7Y",
+      "isNew": false
+    },
+    {
+      "categoryId": "python",
+      "title": "Conditions IF-ELIF-ELSE",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=-g3rrxWrgxU",
+      "isNew": false
+    },
+    {
+      "categoryId": "python",
+      "title": "Boucles FOR",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=sZeVvVfLlw4",
+      "isNew": false
+    },
+    {
+      "categoryId": "python",
+      "title": "Boucles WHILE",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=dZwuHrOs7ro",
+      "isNew": false
+    },
+    {
+      "categoryId": "python",
+      "title": "Boucles INFINIES",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=_3dTyi_FiV0",
+      "isNew": false
+    },
+    {
+      "categoryId": "sig",
+      "title": "TP QGIS",
+      "description": "",
+      "youtube": "https://www.youtube.com/watch?v=9ONrBCK_EB0",
+      "isNew": false
+    },
+    {
+      "categoryId": "retouche-images",
+      "subcategoryId": "gimp",
+      "title": "Présentation générale",
+      "description": "Présentation générale du logiciel GIMP",
+      "youtube": "https://www.youtube.com/watch?v=fGx-ACzqguA",
+      "isNew": false
+    },
+    {
+      "categoryId": "retouche-images",
+      "subcategoryId": "gimp",
+      "title": "Recadrage d’une image",
+      "description": "Recadrage d’une image avec le logiciel GIMP",
+      "youtube": "https://www.youtube.com/watch?v=0LYgFDf_PGI",
+      "isNew": false
+    },
+    {
+      "categoryId": "retouche-images",
+      "subcategoryId": "gimp",
+      "title": "Les calques : montage simple",
+      "description": "Montage simple à partir de calques",
+      "youtube": "https://www.youtube.com/watch?v=lkzBE4pwMco",
+      "isNew": false
+    },
+    {
+      "categoryId": "retouche-images",
+      "subcategoryId": "gimp",
+      "title": "Modifications des calques",
+      "description": "Explication des paramètres de calques",
+      "youtube": "https://www.youtube.com/watch?v=mrKGvX7aLW8",
+      "isNew": false
+    },
+    {
+      "categoryId": "retouche-images",
+      "subcategoryId": "gimp",
+      "title": "Transparence des calques",
+      "description": "Explication de la notion de transparence des calques",
+      "youtube": "https://www.youtube.com/watch?v=AlUXepJWKSY",
+      "isNew": false
+    },
+    {
+      "categoryId": "retouche-images",
+      "subcategoryId": "gimp",
+      "title": "Montage final",
+      "description": "Montage final à partir d’une composition vierge",
+      "youtube": "https://www.youtube.com/watch?v=UiHOo4D-Bb4",
+      "isNew": false
+    }
+  ]
+}
