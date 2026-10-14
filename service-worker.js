@@ -1,4 +1,4 @@
-const CACHE_NAME='le-shield-v2-cache-52';
+const CACHE_NAME='le-shield-v2-cache-53';
 const CORE=['./','./index.html','./styles.css?v=42','./app.js?v=35','./data/videos.json?v=21','./manifest.webmanifest','./assets/logo-shield-carre.png','./assets/logo-simple.png','./assets/mascotte-transparente.png','./assets/bandeau-shield.png','./assets/circuit-pattern.svg','./assets/circuit-traces-mask.png','./assets/logo-letter-outline-mask.png','./assets/logo-shield-carre.png','./assets/apple-touch-icon.png','./assets/app-icon-64.png','./assets/app-icon-192.png','./assets/app-icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE_NAME).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
