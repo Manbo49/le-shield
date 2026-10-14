@@ -29,7 +29,6 @@ body{background:radial-gradient(ellipse at 52% -16%,#193147 0,transparent 42%),#
 .category-art{position:absolute;right:3px;top:0;width:63%;height:76%;display:flex;align-items:center;justify-content:center;opacity:.94;transition:transform .25s,opacity .25s;z-index:-2}
 .category-art img{width:100%;height:100%;object-fit:contain;object-position:center right}
 .category-card:hover .category-art,.category-card:focus-visible .category-art{transform:translate(-4px,-3px) scale(1.04);opacity:1}
-.category-arrow{position:absolute;top:17px;left:18px;color:#8ba4b5;font-size:17px;border:1px solid #71899a36;border-radius:50%;width:28px;height:28px;display:grid;place-items:center;z-index:1}
 .category-copy{position:relative;padding:0 21px 19px;z-index:1}
 .category-label{font-size:9px;letter-spacing:.15em;color:#84a4b8;font-weight:700}
 .category-title{font-size:17px;line-height:1.35;margin:8px 0 5px;max-width:94%;text-wrap:balance}
@@ -42,7 +41,7 @@ body{background:radial-gradient(ellipse at 52% -16%,#193147 0,transparent 42%),#
 .watch-link.is-pending{cursor:default;opacity:.78}
 .result-row.is-pending{cursor:default}
 @media(max-width:850px){.hero{padding:36px}.hero-mark{right:6%}.category-card{min-height:193px}}
-@media(max-width:560px){.hero{min-height:230px;padding:26px 21px;background:linear-gradient(180deg,#132538 0%,#0d1924 60%,#10171d 60%,#10171d 100%)}.hero-circuit{height:61%;object-position:58% center}.hero-mark{right:-23px;top:23%;opacity:.72}.hero-mark img{width:118px;height:118px}.hero-copy{z-index:2}.hero h1{font-size:43px}.hero-subtitle{max-width:250px}.hero-description{max-width:245px}.category-grid{gap:10px}.category-card{min-height:160px;border-radius:14px}.category-art{width:77%;height:75%;right:-3px;top:-3px;opacity:.82}.category-copy{padding:0 13px 14px}.category-title{font-size:13px;max-width:100%;margin:6px 0 4px}.category-label{font-size:7px}.category-count{font-size:7px}.category-arrow{width:24px;height:24px;left:11px;top:11px;font-size:14px}}
+@media(max-width:560px){.hero{min-height:230px;padding:26px 21px;background:linear-gradient(180deg,#132538 0%,#0d1924 60%,#10171d 60%,#10171d 100%)}.hero-circuit{height:61%;object-position:58% center}.hero-mark{right:-23px;top:23%;opacity:.72}.hero-mark img{width:118px;height:118px}.hero-copy{z-index:2}.hero h1{font-size:43px}.hero-subtitle{max-width:250px}.hero-description{max-width:245px}.category-grid{gap:10px}.category-card{min-height:160px;border-radius:14px}.category-art{width:77%;height:75%;right:-3px;top:-3px;opacity:.82}.category-copy{padding:0 13px 14px}.category-title{font-size:13px;max-width:100%;margin:6px 0 4px}.category-label{font-size:7px}.category-count{font-size:7px}}
 .brand img{width:42px;height:42px;object-fit:cover;border-radius:10px;border:1px solid #779db761;box-shadow:0 0 0 3px #6db7ed12}
 .brand{gap:11px;letter-spacing:.15em}
 .category-card:before{background:linear-gradient(0deg,#0a1016 0%,#0a1016e8 5%,#0a10161c 69%);opacity:.85}
@@ -53,7 +52,7 @@ body{background:radial-gradient(ellipse at 52% -16%,#193147 0,transparent 42%),#
 .category-art img{object-fit:contain;object-position:center;border-radius:12px;filter:saturate(.88)}
 .category-card:hover .category-art,.category-card:focus-visible .category-art{opacity:.92}
 .category-card:before{z-index:0}
-.category-copy,.category-arrow{z-index:1}
+.category-copy{z-index:1}
 @media(max-width:850px){.hero-mark{right:5%}.hero-mark img{width:170px;height:170px}.category-art{width:46%;height:65%;right:9px}}
 @media(max-width:560px){.hero-mark{right:-14px;top:51%;opacity:.22}.hero-mark img{width:142px;height:142px}.hero-copy{z-index:2}.category-art{width:59%;height:60%;right:4px;top:4px;opacity:.68}.category-card:hover .category-art{opacity:.78}.category-copy{padding:0 13px 14px}}
 .new-badge{background:#12a9d7;color:#061622}
@@ -108,3 +107,5 @@ body{background:radial-gradient(ellipse at 52% -16%,#193147 0,transparent 42%),#
   .category-copy{width:calc(100% - 64px);margin-left:12px;padding:0 0 14px}
   .category-title{max-width:100%;padding-right:0;overflow-wrap:anywhere}
 }
+
+@media(min-width:561px){.sub-grid{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}}
