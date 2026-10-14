@@ -162,3 +162,9 @@ body.circuits-energized .circuit-glow{animation:page-circuit-sweep 2.8s ease-in-
 .hero-logo-button.is-energized .hero-letter-laser{animation:letter-outline-laser 1.35s ease-out forwards}
 @keyframes letter-outline-laser{0%{opacity:0;background-position:100% 50%}10%{opacity:1}82%{opacity:.96}100%{opacity:0;background-position:0 50%}}
 @media(prefers-reduced-motion:reduce){.hero-logo-button.is-energized .hero-letter-laser{animation-duration:.01ms}}
+
+
+.category-halo{position:absolute;right:-83.5px;bottom:-104.5px;width:250px;height:250px;z-index:0;pointer-events:none;opacity:0;background:conic-gradient(from 0deg,transparent 0 86%,#30bce9 91%,#effcff 93%,#54d7ff 95%,transparent 100%);-webkit-mask:radial-gradient(circle at center,transparent 0 85px,#000 86px 89px,transparent 90px 103px,#000 104px 107px,transparent 108px 122px,#000 123px 126px,transparent 127px);mask:radial-gradient(circle at center,transparent 0 85px,#000 86px 89px,transparent 90px 103px,#000 104px 107px,transparent 108px 122px,#000 123px 126px,transparent 127px);filter:drop-shadow(0 0 3px #43caff) drop-shadow(0 0 8px #168bc2)}
+.category-card.is-activating .category-halo{animation:category-halo-orbit .68s ease-out forwards}
+@keyframes category-halo-orbit{0%{opacity:0;transform:rotate(0)}12%{opacity:1}78%{opacity:.92}100%{opacity:0;transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.category-card.is-activating .category-halo{animation-duration:.01ms}}
