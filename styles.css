@@ -166,20 +166,20 @@ body.circuits-energized .circuit-glow{animation:page-circuit-sweep 2.8s ease-in-
 .hero-star-trails{position:absolute;inset:0;z-index:4;pointer-events:none;opacity:0}
 .hero-star-trails svg{display:block;width:100%;height:100%;overflow:visible}
 .star-trail-glow,.star-trail-core{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;pathLength:1}
-.star-trail-glow{stroke:#31c9f4;stroke-width:12;opacity:.78;filter:url(#star-trail-bloom)}
-.star-trail-core{stroke:#e8fbff;stroke-width:2.2;opacity:.98}
+.star-trail-glow{stroke:#bdeeff;stroke-width:7;opacity:.2;filter:url(#star-trail-bloom)}
+.star-trail-core{stroke:url(#star-trail-gradient);stroke-width:1.9;opacity:.78}
 .hero-logo-button.is-star-sequence .hero-star-trails{opacity:1}
-.hero-logo-button.is-star-sequence .star-trail-glow,.hero-logo-button.is-star-sequence .star-trail-core{animation:shooting-star-travel 1.08s cubic-bezier(.18,.66,.23,1) forwards}
+.hero-logo-button.is-star-sequence .star-trail-glow,.hero-logo-button.is-star-sequence .star-trail-core{animation:shooting-star-travel 1.85s cubic-bezier(.25,.56,.2,.98) forwards}
 .hero-logo-button.is-star-sequence .star-trail-two .star-trail-glow,.hero-logo-button.is-star-sequence .star-trail-two .star-trail-core{animation-delay:.1s}
 .hero-logo-button.is-star-sequence .star-trail-three .star-trail-glow,.hero-logo-button.is-star-sequence .star-trail-three .star-trail-core{animation-delay:.2s}
-@keyframes shooting-star-travel{0%{stroke-dashoffset:1;opacity:0}9%{opacity:1}74%{stroke-dashoffset:.22;opacity:.92}100%{stroke-dashoffset:0;opacity:0}}
-.star-flare{opacity:0;transform-box:fill-box;transform-origin:center;filter:drop-shadow(0 0 2px #6bdcff)}
+@keyframes shooting-star-travel{0%{stroke-dashoffset:1;opacity:0}9%{opacity:1}82%{stroke-dashoffset:.18;opacity:.86}100%{stroke-dashoffset:0;opacity:0}}
+.star-flare{opacity:0;transform-box:fill-box;transform-origin:center;filter:drop-shadow(0 0 1px #b7eaff)}
 .star-flare-halo{fill:url(#star-flare-gradient);opacity:.86}
-.star-flare-core{fill:#e9fbff;stroke:#a7eaff;stroke-width:.7}
-.hero-logo-button.is-star-sequence .star-flare{animation:star-flare-rise .92s cubic-bezier(.16,.75,.22,1) 1.08s forwards}
-.hero-logo-button.is-star-sequence .star-flare-two{animation-delay:1.2s}
-.hero-logo-button.is-star-sequence .star-flare-three{animation-delay:1.32s}
-@keyframes star-flare-rise{0%{opacity:0;transform:scale(.7);filter:drop-shadow(0 0 1px #6bdcff)}38%{opacity:.9;transform:scale(1.05);filter:drop-shadow(0 0 5px #8ce8ff) drop-shadow(0 0 12px #39bff5)}62%{opacity:1;transform:scale(1.22);filter:drop-shadow(0 0 8px #c9f5ff) drop-shadow(0 0 20px #39bff5)}100%{opacity:0;transform:scale(1.34);filter:drop-shadow(0 0 2px #6bdcff)}}
+.star-flare-core{fill:#f0fbff;stroke:#c4edff;stroke-width:.5}
+.hero-logo-button.is-star-sequence .star-flare{animation:star-flare-rise .8s cubic-bezier(.18,.72,.25,1) 1.85s forwards}
+.hero-logo-button.is-star-sequence .star-flare-two{animation-delay:1.95s}
+.hero-logo-button.is-star-sequence .star-flare-three{animation-delay:2.05s}
+@keyframes star-flare-rise{0%{opacity:0;transform:scale(.88);filter:drop-shadow(0 0 1px #b7eaff)}42%{opacity:.65;transform:scale(1.04);filter:drop-shadow(0 0 3px #c9f2ff) drop-shadow(0 0 8px #7ac9ed)}66%{opacity:.92;transform:scale(1.14);filter:drop-shadow(0 0 5px #f0fbff) drop-shadow(0 0 13px #9edff5)}100%{opacity:0;transform:scale(1.2);filter:drop-shadow(0 0 1px #b7eaff)}}
 @media(prefers-reduced-motion:reduce){.hero-logo-button.is-star-sequence .star-trail-glow,.hero-logo-button.is-star-sequence .star-trail-core,.hero-logo-button.is-star-sequence .star-flare{animation-duration:.01ms;animation-delay:0s}}
 
 
