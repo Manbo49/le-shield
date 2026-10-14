@@ -125,3 +125,5 @@ footer{align-items:center}
 .footer-mark{display:block;width:34px;height:34px;object-fit:cover;border:1px solid #467086;border-radius:50%;box-shadow:0 0 0 3px #64b6dc16}
 
 .topbar{height:0;min-height:0;border:0}
+footer{flex-direction:column;justify-content:center;align-items:center;gap:12px;text-align:center}
+footer span:first-child{max-width:100%;line-height:1.8}
