@@ -127,3 +127,5 @@ footer{align-items:center}
 .topbar{height:0;min-height:0;border:0}
 footer{flex-direction:column;justify-content:center;align-items:center;gap:12px;text-align:center}
 footer span:first-child{max-width:100%;line-height:1.8}
+footer .footer-name{font:800 12px/1.2 Manrope,sans-serif;letter-spacing:.2em;color:#c4deea}
+footer .footer-acronym{max-width:100%;font-size:9px;line-height:1.8}
