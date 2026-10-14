@@ -100,3 +100,11 @@ body{background:radial-gradient(ellipse at 52% -16%,#193147 0,transparent 42%),#
 
 .video-resources{display:grid;gap:7px;margin-top:auto;padding-top:11px}.resource-heading{color:#a9c0ce;font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.resource-link{min-height:38px;display:flex;align-items:center;gap:8px;padding:8px 11px;border:1px solid #37586b;border-radius:9px;background:#102737;color:#d8effa;text-decoration:none;font-size:11px;font-weight:700;line-height:1.35;overflow-wrap:anywhere}.resource-link:hover,.resource-link:focus-visible{border-color:#83c9f2;background:#173548;outline:0}.resource-link span{flex:none;font-size:16px;color:#83c9f2}
 @media(max-width:560px){.video-resources{grid-column:1/-1;margin-top:0;padding:0 12px 12px}.resource-link{font-size:10px;min-height:36px}}
+
+/* Keep the category mascot clear of titles on narrow, two-column screens. */
+@media(max-width:560px){
+  .category-card{min-height:176px}
+  .category-art{width:54px;height:54px;right:10px;top:auto;bottom:10px}
+  .category-copy{width:calc(100% - 64px);margin-left:12px;padding:0 0 14px}
+  .category-title{max-width:100%;padding-right:0;overflow-wrap:anywhere}
+}
