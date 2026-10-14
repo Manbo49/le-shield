@@ -115,3 +115,11 @@ body{background:radial-gradient(ellipse at 52% -16%,#193147 0,transparent 42%),#
 .home-return:hover,.home-return:focus-visible{border-color:#83c9ed;background:linear-gradient(145deg,#1a394b,#132531);color:#f0f8fc;outline:0}
 .home-return[hidden]{display:none}
 @media(max-width:560px){.home-return{right:14px;bottom:calc(env(safe-area-inset-bottom,0px) + 12px);min-height:38px;padding:0 11px;font-size:10px;gap:6px}}
+
+
+/* Mobile Safari can outline the focusable main container in bright blue. */
+#app:focus{outline:none}
+.search-box input{font-size:13px}
+@media(min-width:561px){.search-box input{font-size:14px}}
+footer{align-items:center}
+.footer-mark{display:block;width:34px;height:34px;object-fit:cover;border:1px solid #467086;border-radius:50%;box-shadow:0 0 0 3px #64b6dc16}
